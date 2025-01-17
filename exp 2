@@ -1,0 +1,30 @@
+//Write a program that takes two strings representing numbers, converts them to wrapper classes, and performs basic arithmetic operations (addition, subtraction, multiplication, division).
+public class ArithmeticOperations {
+    public static void main(String[] args) {
+        // Define two string inputs representing numbers
+        String numStr1 = "25";
+        String numStr2 = "5";
+
+        // Convert the strings to Integer objects
+        Integer num1 = Integer.parseInt(numStr1);
+        Integer num2 = Integer.parseInt(numStr2);
+
+        // Perform basic arithmetic operations
+        int additionResult = num1 + num2;
+        int subtractionResult = num1 - num2;
+        int multiplicationResult = num1 * num2;
+        int divisionResult = num1 / num2;
+
+        // Print the results
+        System.out.println("Addition: " + num1 + " + " + num2 + " = " + additionResult);
+        System.out.println("Subtraction: " + num1 + " - " + num2 + " = " + subtractionResult);
+        System.out.println("Multiplication: " + num1 + " * " + num2 + " = " + multiplicationResult);
+        System.out.println("Division: " + num1 + " / " + num2 + " = " + divisionResult);
+    }
+}
+
+//output-:
+Addition: 25 + 5 = 30
+Subtraction: 25 - 5 = 20
+Multiplication: 25 * 5 = 125
+Division: 25 / 5 = 5
